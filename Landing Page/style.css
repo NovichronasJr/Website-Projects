@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(60,60,60,0.6),rgba(0,0,0,0.6)),url("1.jpg");
+    
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+
+}
+
+#maincontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+
+}
+#maincontainer>h2{
+margin-top:8px;
+margin-left:18px;
+font-family:'serif';
+font-weight: 400;
+
+}
+
+
+
+
+
+#detailcontainer>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 0px;
+}
+
+#detailcontainer>ul>li {
+    margin: 10px 20px;
+}
+
+#maincontainer>div>input,
+button {
+    margin: 10px 3px;
+
+}
+
+#secondcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:12%;
+    
+}
+
+#primecontainer {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#rightside{
+display:flex;
+flex-direction:column;
+margin-right:18vmax;
+width:19vmax;
+position:relative;
+align-items: center;
+background-color: black;
+scale:1.2;
+
+}
+
+#rightside>h1{
+    text-align:center;
+    
+}
+
+#rightside>input,button{
+width:10vmax;
+height:24px;
+}
+
+#rightside>input{
+background-color:transparent;
+border-bottom:solid white;
+
+}
+
+span{
+    color:orange;
+    transition:3s ease;
+}
+
+#leftside{
+margin-left:15vmax;
+scale:1.2;
+}
+
+li{
+
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 400;
+
+}
+
+button{
+background-color:orange;
+color:#fff;
+border-style:none;
+border-radius:50px;
+cursor:pointer;
+transition:.3s ease-out;
+
+}
+
+
+#leftside>button{
+    transition:3s ease;
+}
+
+#leftside>button:hover{
+    background-color: #fff;
+    color:black;
+    width:50%;
+    z-index:3.22;
+    box-shadow: 20px 20px 20px black;
+    }
+    
+
+button:hover{
+background-color: #fff;
+color:black;
+}
+
+
+input:focus{
+outline:none;
+
+}
+
+::placeholder{
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+#maincontainer>div>input{
+
+background-color:transparent;
+transition:3s ease;
+}
+
+#maincontainer>div>input:hover{
+background-color: #fff;    
+}
+
+#rightside>input{
+    transition:3s ease;
+}
+
+#rightside>input:hover{
+
+    background-color: white;
+}
+
+#detailcontainer>ul>li{
+
+    transition:2s ease;
+    cursor: pointer;
+}
+#detailcontainer>ul>li:hover{
+
+    color:orange;
+}
+
+span:hover{
+    color:red;
+}
